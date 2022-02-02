@@ -1,0 +1,144 @@
+div.outerMost {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+
+div.left {
+    padding: 25px;
+    display: inline-block; /* Makes the div width change dynamically */
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+div.right {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    margin-left: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.checkBox {
+    outline: blue;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.inputBox {
+    padding-left: 10px;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1.5px;
+}
+
+.selectBox {
+    padding-left: 10px;
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1.5px;
+    display: inline;
+}
+
+.right1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: lightgray;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding: 25px;
+}
+
+.right2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: auto;
+    align-self: center;
+}
+
+.numberBlock {
+    display: inline-block;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border: rgb(177, 175, 175);
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px 16px;
+    background-color: whitesmoke;
+    border-left-width: 0px;
+}
+
+.numberBlock:hover {
+    background-color: rgb(226, 226, 226);
+    border-color: cornflowerblue;
+}
+/* Margin-left of auto means as much as possible jita de saktay container me dedo.*/
+
+.description {
+    margin-right: 80px;
+}
+
+.bottomLinks {
+    text-decoration: none;
+    padding-right: 10px;
+    color: cornflowerblue;
+}
+
+.offerContainer {
+    padding: 25px;
+    background-color: white;
+    border-bottom: 2px lightgray solid;
+}
+
+.money {
+    margin-left: auto;
+    margin-right: 80px;
+    white-space: nowrap;
+}
+
+.offerContainer:hover {
+    background-color: whitesmoke;
+}
+
+.buttonVisibility {
+    visibility: hidden;
+}
+
+.bid {
+    display: inline-block;
+    background-color: rgb(86, 173, 86);
+    border: rgb(86, 173, 86);
+    color: white;
+
+    white-space: nowrap;
+    text-align: center;
+    padding: 7px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bid:hover {
+    background-color: rgb(101, 194, 101);
+}
+
+.bottomLinks:hover {
+    text-decoration: underline;
+    color: rgb(127, 166, 238);
+}
+
+.offerContainer:hover .buttonVisibility {
+    /* This line means when offerContainer is hovered upon, make the specified change in .button class. Kamaal*/
+    visibility: visible;
+}

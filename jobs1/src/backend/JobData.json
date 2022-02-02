@@ -1,0 +1,28 @@
+{
+    "Jobs": [
+        {
+            "title": "Change pdf into word (704 pages)",
+            "duration": "6 days",
+            "description": "7044 pages to be converted from pdf to word at 5$ per Page.",
+            "money": "$7 - $10 / hr",
+            "bids": "0 bids",
+            "links": ["Data Entry", "Editing", "PDF", "Photoshop"]
+        },
+        {
+            "title": "Make a unity Game",
+            "duration": "10 days",
+            "description": "3d game action shooter",
+            "money": "$7 - $10 / hr",
+            "bids": "1000 bids",
+            "links": ["Data Entry", "Editing", "PDF", "Photoshop"]
+        },
+        {
+            "title": "Do my assignment",
+            "duration": "1 days",
+            "description": "Write a 5 page essay",
+            "money": "$7 - $10 / hr",
+            "bids": "3 bids",
+            "links": ["Data Entry", "Editing", "PDF", "Photoshop"]
+        }
+    ]
+}
